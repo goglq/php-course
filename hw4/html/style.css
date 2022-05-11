@@ -1,0 +1,32 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Flex */
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+}
+
+.grid-column-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
